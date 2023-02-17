@@ -10,6 +10,7 @@ import {
   Div3,
   NavLink,
   SocialIcons,
+  Span
 } from "./HeaderStyles";
 import dynamic from "next/dynamic";
 
@@ -17,9 +18,9 @@ const Header = () => (
   <Container>
     <Div1>
       <Link legacyBehavior href="/">
-        <a style={{ display: "flex", alignItems: "center", color: "white" }}>
+        <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom:"20px" }}>
           <DiCssdeck size="3rem" />
-          <span>Ivan Portfolio</span>
+          <Span>Ivan Portfolio</Span>
         </a>
       </Link>
     </Div1>
@@ -43,8 +44,19 @@ const Header = () => (
         </Link>
       </li>
     </Div2>
-
+    <Div3>
+      <SocialIcons href="https://github.com" >
+        <AiFillGithub size="3rem" />
+      </SocialIcons>
+      <SocialIcons href="https://linkedin.com" >
+        <AiFillLinkedin size="3rem" />
+      </SocialIcons>
+      <SocialIcons href="https://instagram.com" >
+        <AiFillInstagram size="3rem" />
+      </SocialIcons>
+    </Div3>
     
+
   </Container>
 );
 export default dynamic (() => Promise.resolve(Header), {ssr: false})
