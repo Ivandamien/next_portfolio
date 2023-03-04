@@ -20,7 +20,7 @@ const Header = () => (
       <Link legacyBehavior href="/">
         <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom:"20px" }}>
           <DiCssdeck size="3rem" />
-          <Span>Ivan Portfolio</Span>
+          <Span>Ivan</Span>
         </a>
       </Link>
     </Div1>
@@ -45,13 +45,13 @@ const Header = () => (
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href="https://github.com" >
+      <SocialIcons href="https://github.com/ivandamien" >
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://linkedin.com" >
+      <SocialIcons href="https://ke.linkedin.com/in/ivan-okello-107b711b2" >
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://instagram.com" >
+      <SocialIcons href="#" >
         <AiFillInstagram size="3rem" />
       </SocialIcons>
     </Div3>

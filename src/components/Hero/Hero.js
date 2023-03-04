@@ -8,13 +8,14 @@ const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Welcome To <br />
-        My Personal Portfolio
+        Hello <br /> am Ivan Okello  <br />
+        a Fullstack Developer
       </SectionTitle>
       <SectionText>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, sit obcaecati. Possimus assumenda enim blanditiis accusamus quidem dicta sit modi.
-      </SectionText>
-      <Button onClick={()=> window.location = 'https://google.com'}>Learn More</Button>
+      {/* Welcome to my portfolio! As a fullstack developer, I'm passionate about crafting immersive digital experiences that marry seamless functionality with stunning design. Whether it's developing scalable web applications, building robust APIs, or creating engaging user interfaces, I relish every opportunity to push the boundaries of what's possible. With a keen eye for detail and a deep appreciation for the nuances of both front-end and back-end development, I strive to bring my clients' visions to life in ways that surpass their wildest expectations. So why wait? Let's build something amazing together! */} 
+      As a full-stack developer, I blend technical expertise with creative problem-solving to build web applications that deliver exceptional user experiences. From concept to deployment, I strive for excellence in every project.
+      </SectionText> 
+      <Button onClick={()=> window.location = 'https://google.com'}>Download CV</Button>
     </LeftSection>
   </Section>
 );
